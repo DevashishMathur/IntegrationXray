@@ -1,0 +1,65 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Summary",
+        "description": "",
+        "id": "summary;summary",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 19551681626,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on home page",
+            "match": {
+              "location": "StepImplementation.user_is_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3514066387,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enter any text",
+            "match": {
+              "location": "StepImplementation.user_enter_any_text()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3156085,
+              "error_message": "junit.framework.AssertionFailedError\r\n\tat junit.framework.Assert.fail(Assert.java:55)\r\n\tat junit.framework.Assert.assertTrue(Assert.java:22)\r\n\tat junit.framework.Assert.assertFalse(Assert.java:39)\r\n\tat junit.framework.Assert.assertFalse(Assert.java:47)\r\n\tat clientRequest.StepImplementation.user_is_navigated_to_search_result_page(StepImplementation.java:43)\r\n\tat ✽.Then User is navigated to search result page(C:/Users/devashish.mathur/eclipse-workspace/RestAssured/src/main/java/gherkinTestCaseFeature/1_CUC-25.feature:7)\r\n",
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "User is navigated to search result page",
+            "match": {
+              "location": "StepImplementation.user_is_navigated_to_search_result_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@TEST_CUC-25"
+          }
+        ]
+      }
+    ],
+    "name": "Summary",
+    "description": "",
+    "id": "summary",
+    "keyword": "Feature",
+    "uri": "C:/Users/devashish.mathur/eclipse-workspace/RestAssured/src/main/java/gherkinTestCaseFeature/1_CUC-25.feature"
+  }
+]
