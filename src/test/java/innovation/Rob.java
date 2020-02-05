@@ -8,6 +8,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.remote.ErrorHandler;
 
 public class Rob {
 	public static WebDriver driver;
@@ -23,6 +24,7 @@ public class Rob {
 		
 		
 		driver.get("https://in.yahoo.com/");
+		
 		
 		Robot robot = new Robot();
 		
@@ -41,6 +43,15 @@ public class Rob {
 			WebElement table=driver.findElement(By.xpath("//a[contains(text(),'\"+name+\"')]/parent::td//preceding-sibling::td//input[@name='contact_id']"));
 			return table;
 			//	driver.findElement(By.xpath("//a[contains(text(),'name')]/parent::td//preceding-sibling::td//input[@name='contact_id']")).click();
+	}
+	
+	@Test
+	public void tearUP() {
+		ErrorHandler handler = new ErrorHandler();
+		
+		
+		
+		
 	}
 
 }

@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 19551681626,
+              "duration": 17652968183,
               "status": "passed"
             },
             "line": 5,
@@ -24,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 3514066387,
+              "duration": 2620984526,
               "status": "passed"
             },
             "line": 6,
@@ -36,9 +36,8 @@
           },
           {
             "result": {
-              "duration": 3156085,
-              "error_message": "junit.framework.AssertionFailedError\r\n\tat junit.framework.Assert.fail(Assert.java:55)\r\n\tat junit.framework.Assert.assertTrue(Assert.java:22)\r\n\tat junit.framework.Assert.assertFalse(Assert.java:39)\r\n\tat junit.framework.Assert.assertFalse(Assert.java:47)\r\n\tat clientRequest.StepImplementation.user_is_navigated_to_search_result_page(StepImplementation.java:43)\r\n\tat ✽.Then User is navigated to search result page(C:/Users/devashish.mathur/eclipse-workspace/RestAssured/src/main/java/gherkinTestCaseFeature/1_CUC-25.feature:7)\r\n",
-              "status": "failed"
+              "duration": 3133980,
+              "status": "passed"
             },
             "line": 7,
             "name": "User is navigated to search result page",
